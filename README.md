@@ -11,8 +11,9 @@ We aim to answer three questions:
 
 ---
 
-## 📂 Repo Structure
 '''
+## 📂 Repo Structure
+
 delaware-primarycare-awv-analysis/
 ├── .gitignore
 ├── README.md
@@ -28,12 +29,13 @@ delaware-primarycare-awv-analysis/
 │ ├── 06_exercises.sql
 │ └── 07_profile_and_normalize.sql
 └── (dashboards/ to be added later)
-'''
+
 
 - **`docs/`** → project documentation (`methods.md`)  
 - **`sql/`** → ordered pipeline scripts (00-07)  
 - **`.gitignore`** → excludes raw CMS data, `.DS_Store`, exports, large docs  
 
+'''
 ---
 
 ## 🗂️ Data Sources
