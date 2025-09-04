@@ -11,7 +11,6 @@ We aim to answer three questions:
 
 ---
 
-'''
 ## 📂 Repo Structure
 
 delaware-primarycare-awv-analysis/
@@ -35,7 +34,6 @@ delaware-primarycare-awv-analysis/
 - **`sql/`** → ordered pipeline scripts (00-07)  
 - **`.gitignore`** → excludes raw CMS data, `.DS_Store`, exports, large docs  
 
-'''
 ---
 
 ## 🗂️ Data Sources
