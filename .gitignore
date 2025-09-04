@@ -1,8 +1,18 @@
-# macOS
+# macOS system files
 .DS_Store
+*/.DS_Store
+
+# Raw data (don’t push CMS PUFs to GitHub)
 data/raw/*
+
+# Exported data for Tableau
 data/exports/*.csv
+
+# Python junk
 __pycache__/
 .ipynb_checkpoints/
+
+# Local documents (not needed in repo)
 *.pdf
 *.docx
+
