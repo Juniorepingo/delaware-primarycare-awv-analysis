@@ -1,5 +1,12 @@
 # Methods & Documentation
 
+## 1. Methods
+- **Staging Layer**: All columns imported as `TEXT`. Ensures raw fidelity, especially for ZIP codes and numeric identifiers.  
+- **Analysis Layer**: Created typed tables (VARCHAR, INT, DECIMAL, BOOLEAN). Selected only relevant fields for analysis.  
+- **Canonical Provider Site**: Normalized addresses to generate consistent `site_key` (street1 + city + state + zip5).  
+- **Specialty Filter**: Defined primary care specialties (Family Medicine, Internal Medicine, Geriatric Medicine, General Practice, Nurse Practitioner, Physician Assistant).  
+- **AWV Identification**: Used HCPCS codes `G0438` (Initial AWV) and `G0439` (Subsequent AWV).  
+
 ### 🔄 SQL Script ↔ Documentation Mapping
 | Script File                          | Purpose / Action                                                                 | Documentation Section                  |
 |--------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------|
@@ -13,15 +20,6 @@
 | `07_profile_and_normalize.sql`       | Profiles data, normalizes cities, fixes typos (e.g., `NEWARD` → `NEWARK`).       | Limitations → Data Quality              |
 
 
-
-# Methods & Documentation
-
-## 1. Methods
-- **Staging Layer**: All columns imported as `TEXT`. Ensures raw fidelity, especially for ZIP codes and numeric identifiers.  
-- **Analysis Layer**: Created typed tables (VARCHAR, INT, DECIMAL, BOOLEAN). Selected only relevant fields for analysis.  
-- **Canonical Provider Site**: Normalized addresses to generate consistent `site_key` (street1 + city + state + zip5).  
-- **Specialty Filter**: Defined primary care specialties (Family Medicine, Internal Medicine, Geriatric Medicine, General Practice, Nurse Practitioner, Physician Assistant).  
-- **AWV Identification**: Used HCPCS codes `G0438` (Initial AWV) and `G0439` (Subsequent AWV).  
 
 ---
 
