@@ -1,5 +1,21 @@
 # Methods & Documentation
 
+### 🔄 SQL Script ↔ Documentation Mapping
+| Script File                          | Purpose / Action                                                                 | Documentation Section                  |
+|--------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------|
+| `00_reset.sql`                       | Drops & recreates schema (`pcp_awv_de`) to ensure clean setup.                   | Methods → Staging Layer setup           |
+| `01_staging_raw_data.sql`            | Loads raw CSVs into staging tables, all fields as `TEXT` to preserve fidelity.   | Methods → Staging Layer                 |
+| `02_analysis.sql`                    | Builds typed analysis tables (VARCHAR, INT, DECIMAL, BOOLEAN).                   | Methods → Analysis Layer                |
+| `03_indexes_mysql.sql`               | Adds indexes (NPI, site key, provider type, etc.) for performance.               | QA Checks (efficiency & validation)     |
+| `04_canonical_provider_site_mysql.sql` | Normalizes addresses, generates consistent `site_key` (ignores `street2`).       | Methods → Canonical Provider Site       |
+| `05_views.sql`                       | Creates helper views linking Compare + HCPCS for easier querying.                | QA Checks & Cross-Table Consistency     |
+| `06_exercises.sql`                   | Answers assessment questions (practice count, AWV volumes, top sites).           | Results Summary & Campaign Playbook     |
+| `07_profile_and_normalize.sql`       | Profiles data, normalizes cities, fixes typos (e.g., `NEWARD` → `NEWARK`).       | Limitations → Data Quality              |
+
+
+
+# Methods & Documentation
+
 ## 1. Methods
 - **Staging Layer**: All columns imported as `TEXT`. Ensures raw fidelity, especially for ZIP codes and numeric identifiers.  
 - **Analysis Layer**: Created typed tables (VARCHAR, INT, DECIMAL, BOOLEAN). Selected only relevant fields for analysis.  
