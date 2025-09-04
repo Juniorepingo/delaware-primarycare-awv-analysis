@@ -11,24 +11,24 @@ We aim to answer three questions:
 
 ---
 
-## 📂 Repo Structure
-
+📂 Repo Structure
 delaware-primarycare-awv-analysis/
 ├── .gitignore
 ├── README.md
 ├── docs/
-│ └── methods.md # methods, QA checks, limitations, playbook
+│   └── methods.md              # methods, QA checks, limitations, playbook
 ├── sql/
-│ ├── 00_reset.sql
-│ ├── 01_staging_raw_data.sql
-│ ├── 02_analysis.sql
-│ ├── 03_indexes_mysql.sql
-│ ├── 04_canonical_provider_site_mysql.sql
-│ ├── 05_views.sql
-│ ├── 06_exercises.sql
-│ └── 07_profile_and_normalize.sql
+│   ├── 00_reset.sql
+│   ├── 01_staging_raw_data.sql
+│   ├── 02_analysis.sql
+│   ├── 03_indexes_mysql.sql
+│   ├── 04_canonical_provider_site_mysql.sql
+│   ├── 05_views.sql
+│   ├── 06_exercises.sql
+│   └── 07_profile_and_normalize.sql
 └── (dashboards/ to be added later)
 
+---
 
 - **`docs/`** → project documentation (`methods.md`)  
 - **`sql/`** → ordered pipeline scripts (00-07)  
