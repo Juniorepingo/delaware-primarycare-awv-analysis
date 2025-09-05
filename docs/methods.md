@@ -42,24 +42,19 @@
 ---
 
 ## 4. Campaign Playbook
-Strategies to improve Delaware AWV uptake:
+Strategies to improve Delaware AWV uptake (informed by dashboard analysis):
 
-1. **High-Volume Practices**  
-   - Focus on Wilmington & Newark hubs with multi-million service volumes.  
-   - Replicate workflows from Lewes’ top-performing site (`20251 John J Williams Hwy`).  
+High-Volume Practices
+Focus on Wilmington & Newark hubs with the largest patient panels but low adoption. Replicate workflows from top-performing practices in Seaford and Lewes.
 
-2. **Low-Performing Sites**  
-   - Target practices with <10,000 AWVs despite active NPIs.  
-   - Provide workflow redesign, reminder systems, and EHR prompts.  
+Low-Performing Sites
+Target cities with large PCP footprints but <5% adoption (e.g., Wilmington, Newark). Introduce workflow redesign, reminder systems, and EHR prompts.
 
-3. **Patient Engagement**  
-   - Deploy patient-facing reminders (texts, calls, portal messages).  
-   - Leverage nurse navigators to schedule AWVs proactively.  
+Patient Engagement
+Deploy patient-facing reminders (texts, calls, portal messages). Leverage nurse navigators to schedule AWVs proactively.
 
-4. **Equity Lens**  
-   - Tailor outreach for dual-eligible and minority populations where AWV uptake is historically lower.  
+Equity Lens
+Tailor outreach for dual-eligible and minority populations where AWV uptake is historically lower.
 
-5. **ACO Alignment**  
-   - Tie AWV improvements to shared savings contracts (reduced preventable admissions/readmissions).  
-
----
+ACO Alignment
+Tie AWV improvements to shared savings contracts and reduced preventable admissions/readmissions.
