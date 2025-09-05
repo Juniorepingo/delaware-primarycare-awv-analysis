@@ -70,7 +70,7 @@ Raw files live locally under `data/raw/` but are **not tracked in GitHub**.
 ## 📊 Results Summary
 - **Q1:** **410** unique primary care practices in Delaware  
 - **Q2:** Top site → `20251 JOHN J WILLIAMS HWY | LEWES | DE | 19958` with **2,497 AWVs in 2019**  
-- **Q3:** Top cities by AWV services: Newark, Wilmington, Dover, Lewes (see full table in docs)  
+- **Q3:** Top cities by AWV services: Seaford, Laurel, Dover, Newark, Wilmington, (see full table in docs)  
 
 ---
 
