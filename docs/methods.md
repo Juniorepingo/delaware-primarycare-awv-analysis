@@ -71,6 +71,5 @@ Specialty Adoption: Family Practice vs Internal Medicine vs Other.
 Benchmarking: Top-performing practices for workflow replication.
 
 Access:
-
-Interactive Dashboard: View on Tableau Public (https://public.tableau.com/app/profile/raphael.dibo.epingo.jr/viz/delaware_awv_analysis/DelawarePrimaryCareAWVAnalysis2019)
+[Interactive Dashboard: View on Tableau Public] (https://public.tableau.com/app/profile/raphael.dibo.epingo.jr/viz/delaware_awv_analysis/DelawarePrimaryCareAWVAnalysis2019)
 
