@@ -18,6 +18,7 @@
 | `05_views.sql`                       | Creates helper views linking Compare + HCPCS for easier querying.                | QA Checks & Cross-Table Consistency     |
 | `06_exercises.sql`                   | Answers assessment questions (practice count, AWV volumes, top sites).           | Results Summary & Campaign Playbook     |
 | `07_profile_and_normalize.sql`       | Profiles data, normalizes cities, fixes typos (e.g., `NEWARD` → `NEWARK`).       | Limitations → Data Quality              |
+| `08_export_tableau.sql`              | Exports NPI + site-level dataset for Tableau dashboard.                          | Methods → Tableau Export                   |
 
 
 
@@ -58,3 +59,18 @@ Tailor outreach for dual-eligible and minority populations where AWV uptake is h
 
 ACO Alignment
 Tie AWV improvements to shared savings contracts and reduced preventable admissions/readmissions.
+
+## 5. Tableau Dashboard
+
+Distribution & Capacity: Where AWVs are concentrated, top 10 practices.
+
+City Adoption: % of sites active in each city.
+
+Specialty Adoption: Family Practice vs Internal Medicine vs Other.
+
+Benchmarking: Top-performing practices for workflow replication.
+
+Access:
+
+Interactive Dashboard: View on Tableau Public
+
