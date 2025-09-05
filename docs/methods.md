@@ -72,5 +72,5 @@ Benchmarking: Top-performing practices for workflow replication.
 
 Access:
 
-Interactive Dashboard: View on Tableau Public
+Interactive Dashboard: View on Tableau Public (https://public.tableau.com/app/profile/raphael.dibo.epingo.jr/viz/delaware_awv_analysis/DelawarePrimaryCareAWVAnalysis2019)
 
