@@ -77,7 +77,7 @@ Raw files live locally under `data/raw/` but are **not tracked in GitHub**.
 ## 📊 Tableau Dashboard
 
 The interactive dashboard is published on Tableau Public:  
-👉 [View Delaware Primary Care & AWV Analysis (2019)](https://public.tableau.com/app/profile/raphael.dibo.epingo.jr/viz/delaware_awv_analysis/DelawarePrimaryCareAWVAnalysis2019)
+👉 [View Delaware Primary Care & AWV Analysis (2019)](https://public.tableau.com/app/profile/raphael.dibo.epingo.jr/viz/DelawarePrimaryCareAnnualWellnessVisitAnalysis2019/DelawarePrimaryCareAnnualWellnessVisitAnalysis2019)
 
 This dashboard provides four perspectives:
 1. **Distribution & Capacity** – Where AWVs are concentrated and top 10 practices.  
