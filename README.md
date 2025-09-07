@@ -59,7 +59,9 @@ Raw files live locally under `data/raw/` but are **not tracked in GitHub**.
    - `04_canonical_provider_site_mysql.sql` → normalize addresses → `site_key`  
    - `05_views.sql` → helper views  
    - `06_exercises.sql` → answers to Q1–Q3  
-   - `07_profile_and_normalize.sql` → profiling & city normalization  
+   - `07_profile_and_normalize.sql` → profiling & city normalization
+   - `08_export_tableau.sql` → Tableau-ready dataset  
+  
 
 3. **Validate Results**  
    - Run QA checks in `docs/methods.md`  
@@ -70,7 +72,7 @@ Raw files live locally under `data/raw/` but are **not tracked in GitHub**.
 ## 📊 Results Summary
 - **Q1:** **410** unique primary care practices in Delaware  
 - **Q2:** Top site → `20251 JOHN J WILLIAMS HWY | LEWES | DE | 19958` with **2,497 AWVs in 2019**  
-- **Q3:** Top cities by AWV services: Seaford, Laurel, Dover, Newark, Wilmington, (see full table in docs)  
+- **Q3:** Top cities by AWV services: Newark, Dover, Wilmington, (see full table in docs)  
 
 ---
 
