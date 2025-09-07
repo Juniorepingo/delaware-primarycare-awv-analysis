@@ -16,3 +16,10 @@ __pycache__/
 *.pdf
 *.docx
 
+# Tableau
+*.twb
+*.twbx
+*.hyper
+*.tde
+*.tds
+*.tdsx
